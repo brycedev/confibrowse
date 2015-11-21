@@ -1,0 +1,9 @@
+Package: com.brycedev.confibrowse
+Name: ConfiBrowse
+Depends: mobilesubstrate, firmware(>= 8.0)
+Version: 0.9.0
+Architecture: iphoneos-arm
+Description: Make your Safari private browsing private. Adds TouchID to access private browsing.
+Maintainer: Bryce Jackson
+Author: Bryce Jackson
+Section: Tweaks
