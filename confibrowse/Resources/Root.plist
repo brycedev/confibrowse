@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key><string>PSGroupCell</string>
+			<key>label</key><string></string>
+            <key>footerText</key><string></string>
+		</dict>
+		<dict>
+			<key>cell</key><string>PSSwitchCell</string>
+			<key>default</key><true/>
+			<key>defaults</key><string>com.brycedev.confibrowse</string>
+			<key>key</key><string>enabled</string>
+			<key>label</key><string>Enabled</string>
+			<key>PostNotification</key><string>com.brycedev.confibrowse.prefschanged</string>
+		</dict>
+		<dict>
+			<key>cell</key><string>PSGroupCell</string>
+			<key>label</key><string>Options</string>
+			<key>footerText</key><string></string>
+		</dict>
+		<dict>
+			<key>cell</key><string>PSSwitchCell</string>
+			<key>default</key><true/>
+			<key>defaults</key><string>com.brycedev.confibrowse</string>
+			<key>key</key><string>protectPrivate</string>
+			<key>label</key><string>Protect w/ TouchID</string>
+			<key>PostNotification</key><string>com.brycedev.confibrowse.prefschanged</string>
+		</dict>
+		<dict>
+			<key>cell</key><string>PSSwitchCell</string>
+			<key>default</key><true/>
+			<key>defaults</key><string>com.brycedev.confibrowse</string>
+			<key>key</key><string>hidePrivate</string>
+			<key>label</key><string>Never Start Private</string>
+			<key>PostNotification</key><string>com.brycedev.confibrowse.prefschanged</string>
+		</dict>
+		<dict>
+			<key>cell</key><string>PSGroupCell</string>
+			<key>label</key><string>Developer : Bryce Jackson</string>
+			<key>footerText</key><string></string>
+		</dict>
+		<dict>
+			<key>cell</key><string>PSButtonCell</string>
+			<key>label</key><string>Twitter (@thebryc3isright)</string>
+			<key>action</key><string>bryceTwitter</string>
+		</dict>
+		<dict>
+			<key>cell</key><string>PSButtonCell</string>
+			<key>label</key><string>Email (bryce@brycedev.com)</string>
+			<key>action</key><string>openSupportMail</string>
+		</dict>
+		<dict>
+			<key>cell</key><string>PSGroupCell</string>
+			<key>footerAlignment</key><integer>1</integer>
+			<key>footerText</key><string>© 2015 Bryce Jackson</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>ConfiBrowse</string>
+</dict>
+</plist>
